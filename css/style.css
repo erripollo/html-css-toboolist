@@ -13,8 +13,8 @@ body{
 
 /* Utility Style */
 
-.pl-40{
-    padding-left: 40px;
+.ml-60{
+    margin-left: 60px;
 }
 
 /* /Utility Style */
@@ -47,16 +47,17 @@ header{
 /* Main Style */
 main{
     width: 70%;
-    height: 500px;
     margin: auto;
     margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
     border-radius: 10px;
     background-color: white;
 }
 
 .button-bar{
     border-bottom: 1px solid #c6cbd0;
-    padding: 15px 60px;
+    padding: 15px 0px;
 }
 
 .button{
@@ -76,5 +77,109 @@ main{
 .unselect{
     color: #c6cbd0;
     border: 1px solid #c6cbd0;
+}
+
+h2{
+   color: #454951; 
+   margin-top: 50px;
+   margin-bottom: 15px;
+}
+
+h2::before{
+    content: "\0025BE";
+    margin-right: 5px;
+    color: #454951;
+}
+
+.task{
+    font-size: 20px;
+    color: #454951;
+    margin-bottom: 25px;
+}
+
+.check::before{
+    content: "\2713";
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #64c0a9;
+    border-radius: 50%;
+    border: 2px solid #64c0a9;
+}
+
+.cross::before{
+    content: "\2717";
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    color: #ea4237;
+    border-radius: 50%;
+    border: 2px solid #ea4237;
+}
+
+.label-editorial::after{
+    content: "Editorial";
+    font-size: 12px;
+    margin-left: 10px;
+    background-color: #46abea;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 12px;
+}
+
+.label-goals::after{
+    content: "Q1 Goals";
+    font-size: 12px;
+    margin-left: 10px;
+    background-color: #9c72e4;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 12px;
+}
+
+.label-recruiting::after{
+    content: "Recruiting";
+    font-size: 12px;
+    margin-left: 10px;
+    background-color: #64c0a9;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 12px;
+}
+
+.label-mobile::after{
+    content: "Mobie";
+    font-size: 12px;
+    margin-left: 10px;
+    background-color: #f39e33;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 12px;
+}
+
+.label-website::after{
+    content: "Website";
+    font-size: 12px;
+    margin-left: 10px;
+    background-color: #d863a1;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 12px;
+}
+
+.label-sales::after{
+    content: "Sales";
+    font-size: 12px;
+    margin-left: 10px;
+    background-color: #b0c927;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 12px;
 }
 /* Main Style */
